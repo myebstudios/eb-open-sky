@@ -1,0 +1,234 @@
+.app-box {
+  color: white;
+  width: 850px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app-box .black-glass {
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 5px;
+}
+
+.app-box .app-row.left {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app-box .app-row.left .app-row.github button {
+  width: 64px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.app-box .app-row.left .app-row.github button:focus {
+  outline: none;
+}
+
+.app-box .app-row.left .app-row.image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app-box .app-row.left .app-row.image img {
+  width: 300px;
+}
+
+.app-box .app-row.left .app-row.weather-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app-box .app-row.left .app-row.weather-info .weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.app-box .app-row.left .app-row.weather-info .weather .deg {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.app-box .app-row.left .app-row.weather-info .weather .location-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 10px;
+}
+
+.app-box .app-row.left .app-row.weather-info .weather .location-date .location {
+  font-size: 24px;
+}
+
+.app-box .app-row.left .app-row.weather-info .weather .location-date .date {
+  font-style: normal;
+  font-size: 12px;
+}
+
+.app-box .app-row.left .app-row.weather-info .weather .icon {
+  padding-top: 10px;
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+}
+
+.app-box .app-row.right {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+}
+
+.app-box .app-row.right .app-row.search-settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 43px;
+  padding: 0px 20px;
+  margin-bottom: 30px;
+}
+
+.app-box .app-row.right .app-row.search-settings input,
+.app-box .app-row.right .app-row.search-settings button {
+  border: none;
+  background: none;
+}
+
+.app-box .app-row.right .app-row.search-settings .btn {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.app-box .app-row.right .app-row.search-settings input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 12px;
+  color: white;
+}
+
+.app-box .app-row.right .app-row.search-settings input:focus {
+  outline: none;
+}
+
+.app-box .app-row.right .app-row.search-settings input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.app-box .app-row.right .app-row.search-settings input:-ms-input-placeholder {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.app-box .app-row.right .app-row.search-settings input::-ms-input-placeholder {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.app-box .app-row.right .app-row.search-settings input::placeholder {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.app-box .app-row.right .app-row.monitoring-cities .city {
+  height: 80px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app-box .app-row.right .app-row.monitoring-cities .city > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.container {
+  background-image: url("../img/bg/bg1.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-color: #C5C5C5;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
